@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *  * print_rev - print it revesely
- *   * @a: string
- *    * return: 0
- *     */
+*print_rev - print it revesely
+*@a: string
+*return: Always 0
+*/
 void print_rev(char *a)
 {
 		int longi = 0;
