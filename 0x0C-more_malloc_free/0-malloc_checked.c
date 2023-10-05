@@ -3,19 +3,19 @@
 
 /**
  * *malloc_checked - allocates memory using malloc
- * @b: number of bytes
+ * @b: number of bytes to allocate
  *
- * Return: a pointer to the memory allocated
+ * Return: a pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
-	void *a;
+	void *ptr;
 
 	ptr = malloc(b);
 
-	if (a == NULL)
+	if (ptr == NULL)
 		exit(98);
 
-	return (a);
+	return (ptr);
 }
 
