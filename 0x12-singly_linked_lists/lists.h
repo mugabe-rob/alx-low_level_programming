@@ -1,13 +1,13 @@
-#ifndef _LISTS_
-#define _LISTS_
+#ifndef LINKED
+#define LINKED
 
-#include <stdio.h>
+#include <stddef.h>
 #include <stdlib.h>
 #include <string.h>
 
 /**
  * struct list_s - singly linked lists
- * @str: string - String
+ * @str: string - String for malloc'ed
  * @len: The length of the string
  * @next: The points for the next node
  *
