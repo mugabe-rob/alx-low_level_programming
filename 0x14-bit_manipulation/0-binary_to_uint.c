@@ -11,7 +11,7 @@
 	int counter;
 	unsigned int number;
 
-	num = 0;
+	number = 0;
 	if (!b)
 		return (0);
 	for (counter = 0; b[counter] != '\0'; counter++)
